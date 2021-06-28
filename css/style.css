@@ -97,7 +97,7 @@ text-transform: uppercase;
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #f3f3f3;
-  background-image: url(/img/triangle.svg);
+  background-image: url("/img/triangle.svg");
 
 }
 .advantages{
@@ -129,7 +129,7 @@ text-transform: uppercase;
   height: auto;  
   background-image: url(/img/icon-1.svg);
 }
-.blue {
+.advantage-blue {
   width: 400px;
   padding-top: 48px;
   text-align: center;
@@ -137,7 +137,7 @@ text-transform: uppercase;
   color: white;
 }
 
-.blue h3 {
+.advantage-blue h3 {
   width: 160px;
   margin: 0 auto;
   margin-left: 122px;
@@ -147,7 +147,7 @@ text-transform: uppercase;
   font-weight: 700;
 }
 
-.blue p {
+.advantage-blue p {
   width: 302px;
   padding-bottom: 21px;
   margin: 0 auto;
@@ -164,13 +164,13 @@ text-transform: uppercase;
   background-color: #ffffff;
 }
 
-.feature-item {
+.item-feature  {
   width: 400px;
   text-align: center;
   background-image: url(/img/icon-1.svg);
 }
 
-.feature-item h4 {
+.item-feature h4 {
   position: relative;
   margin-top: 160px;
   padding: 0;
@@ -182,7 +182,7 @@ text-transform: uppercase;
   background-image: url(/img/icon-2.svg);
 }
 
-.feature-item p {
+.item-feature  p {
   width: 288px;
   margin: 0 auto;
   margin-bottom: 82px;
@@ -192,6 +192,30 @@ text-transform: uppercase;
   line-height: 20px;
   color: #333333;
   background-image: url(/img/icon-3.svg);
+}
+.icon-1::before {
+  content: "";
+  width: 75px;
+  height: 72px;
+  background-image: url(../img/icon-1.svg);
+  background-size: 75px 72px;
+  display: block;
+}
+.icon-2::before {
+  content: "";
+  width: 75px;
+  height: 72px;
+  background-image: url(../img/icon-2.svg);
+  background-size: 75px 72px;
+  display: block;
+}
+.icon-3::before {
+  content: "";
+  width: 75px;
+  height: 72px;
+  background-image: url(../img/icon-3.svg);
+  background-size: 75px 72px;
+  display: block;
 }
 .advantage-image img {
   height: auto;
@@ -326,6 +350,7 @@ font-weight: normal;
 .range-slider{
 
 }
+
 /* фильтрование каталога */
 .catalog-list{
 background-color: white;
