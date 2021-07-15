@@ -1,71 +1,82 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body class="page-body">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-body">
+  <div class="container">
+
+
     <header claas="page-header">
-        <nav class="page-navigation">
-          <div class="container">
-            <ul class="navigation-list">
-              <li class="navigation-item"> 
-                <a href="index.html">Информация</a>
-              </li>
-              <li class="navigation-item">
-                <a href="index.html">Фото и Видео</a>
-              </li>
-              <a class="page-header-logo" href="index.html">
-                <img src="img/logo.svg" width="138" height="70" alt="Логотип SEDONA">
-              </a>
-              <li class="navigation-item">
-                <a href="#">Карта Штата</a>
-              </li>
-              <li class="navigation-item">
-                <a href="catalog.html">Гостиницы</a>
-              </li>
-            </ul>
-          </div>  
-        </nav>
+      <nav class="page-navigation">
+        <div class="main-navigation-list">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a href="index.html">Информация</a>
+            </li>
+            <li class="navigation-item">
+              <a href="index.html">Фото и Видео</a>
+            </li>
+            <a class="page-header-logo" href="index.html">
+              <img src="img/logo.svg" width="138" height="70" alt="Логотип SEDONA">
+            </a>
+            <li class="navigation-item">
+              <a href="#">Карта Штата</a>
+            </li>
+            <li class="navigation-item">
+              <a href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
 
-    <main class="page-content" >
-      <section class="promo">
-        <img src="img/welcome.jpg" width="1200" height="509" alt="Слайд SEDONA">
-      </section>
-      <section>
-        <img src="img/triangle.svg" width="1200" height="57" alt="Треугольник">
-      </section>
+    <main class="page-content">
+      <header class="header-promo">
+        <section class="promo">
+          <img src="img/welcome.jpg" width="1200" height="509" alt="Слайд SEDONA">
+        </section>
+        <section class="item-figure">
+          <img src="img/triangle.svg" width="1200" height="57" alt="Треугольник">
+        </section>
+        <section class="item-promo">
+          <h2>Седона — небольшой городок в Аризоне, <br>
+            заслуживающий большего!</h2>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        </section>
+      </header>
+
       <section class="advantages">
         <div class="advantage-blue">
           <h2>Настоящий<br>
             городок</h2>
-            <p>— №1 —</p>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          <p>— №1 —</p>
+          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </div>
         <div class="advantages-image">
           <img src="img/city.png" width="800" height="256" alt="Настоящий городок">
         </div>
       </section>
+
       <section class="feature">
         <ul class="feature-list">
           <li class="item-feature icon-1">
-            <!-- <img src="img/icon-1.svg" width="75" height="72" alt="Жилье"> -->
             <h3>Жилье</h3>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="item-feature icon-2">
-            <!-- <img src="img/icon-2.svg" width="75" height="72" alt="Еда"> -->
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="item-feature icon-3">
-            <!-- <img src="img/icon-3.svg" width="75" height="72" alt="Сувениры"> -->
             <h3>Сувениры</h3>
             <p>Не только китайского, но и местного производства!</p>
           </li>
@@ -78,25 +89,26 @@
         <div class="advantage-blue">
           <h2>Там есть<br>
             Мост дьявола</h2>
-            <p>— №2 —</p>
-            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <p>— №2 —</p>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
+
       </section>
       <section>
-        <ul class="advantage-list">
-          <li class="more-advantage">
+        <ul class="feature-list">
+          <li class="more-feature">
             <h2>Небольшая<br>
               площадь</h2>
             <p>— №3 —</p>
             <p>все достопримечательности находятся очень близко</p>
           </li>
-          <li class="more-advantage">
+          <li class="more-feature">
             <h2>Красивая<br>
               дорога</h2>
             <p>— №4 —</p>
             <p>ехать в седону из лас-вегаса совсем не скучно!</p>
           </li>
-          <li class="more-advantage">
+          <li class="more-feature">
             <h2>Мало<br>
               туристов</h2>
             <p>— №5 —</p>
@@ -146,6 +158,7 @@
         <a href="https://htmlacademy.ru">HTML Academy</a>
       </p>
     </footer>
+  </div>
+</body>
 
-  </body>
 </html>
