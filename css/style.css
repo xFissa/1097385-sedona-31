@@ -22,6 +22,7 @@ body {
 }
 
 a {
+  min-height: 100%;
   text-decoration: none;
 }
 
@@ -171,7 +172,6 @@ img {
   line-height: 21px;
   text-align: center;
   font-weight: 400;
-  margin: 0;
 }
 
 .advantage-item {
